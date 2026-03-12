@@ -1,52 +1,52 @@
 🚀 Internship Portal Backend
 
 This repository contains the backend implementation of the Internship Portal Web Application built using Spring Boot and MySQL.
-
-The backend provides REST APIs to manage internships and internship applications.
+It provides REST APIs to manage internships and internship applications.
 
 ---
 
 🛠 Technologies Used
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- Maven
-- REST API
+Java
+Spring Boot
+Spring Data JPA
+MySQL
+Maven
+REST API
 
 ---
 
 ✨ Features
 
-- View available internships
-- Add new internships
-- Update internship details
-- Delete internships
-- Apply for internships
-- Store internship applications in MySQL database
-- View all submitted applications
-- CRUD operations for internships and applications
-- REST API integration with frontend
+View available internships
+Add new internships
+Update internship details
+Delete internships
+Apply for internships
+Store internship applications in MySQL database
+View all submitted applications
+Perform CRUD operations for internships and applications
 
 ---
 
 📂 Project Structure
 
 src/main/java
- ├── controller
- ├── service
- ├── repository
- ├── model
+
+controller
+service
+repository
+model
 
 src/main/resources
- └── application.properties
+
+application.properties
 
 ---
 
-⚙️ API Endpoints
+⚙ API Endpoints
 
-💼 Internship APIs
+Internship APIs
 
 GET /api/internships
 POST /api/internships
@@ -55,7 +55,7 @@ DELETE /api/internships/{id}
 
 ---
 
-📝 Application APIs
+Application APIs
 
 POST /api/applications
 GET /api/applications
@@ -64,7 +64,7 @@ DELETE /api/applications/{id}
 
 ---
 
-⚙️ How to Run the Project
+▶ How to Run the Project
 
 1. Clone the repository
 
@@ -80,7 +80,7 @@ internship_portal
 
 src/main/resources/application.properties
 
-Example:
+Example configuration:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/internship_portal
 spring.datasource.username=your_username
@@ -88,7 +88,7 @@ spring.datasource.password=your_password
 
 5. Run the Spring Boot application
 
-Server will start at:
+Server will start at
 
 http://localhost:8080
 
@@ -96,12 +96,12 @@ http://localhost:8080
 
 🔗 Frontend Repository
 
-Frontend code available here:
+Frontend code available at
 
-https://github.com/abinaya098 /internship-portal-frontend
+https://github.com/YOUR_USERNAME/internship-portal-frontend
 
 ---
 
 👩‍💻 Developed by Abinaya Y
 
-Update Application.properties
+Update applications.properties
