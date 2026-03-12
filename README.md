@@ -1,4 +1,4 @@
-🚀 Internship Portal Backend
+🚀 Internship Portal - backend
 
 This repository contains the backend implementation of the Internship Portal Web Application built using Spring Boot and MySQL.
 It provides REST APIs to manage internships and internship applications.
@@ -7,39 +7,37 @@ It provides REST APIs to manage internships and internship applications.
 
 🛠 Technologies Used
 
-Java
-Spring Boot
-Spring Data JPA
-MySQL
-Maven
-REST API
+•	Java 21
+•	Spring Boot
+•	Spring Data JPA
+•	MySQL
+•	Maven
+•	REST API
 
 ---
 
 ✨ Features
 
-View available internships
-Add new internships
-Update internship details
-Delete internships
-Apply for internships
-Store internship applications in MySQL database
-View all submitted applications
-Perform CRUD operations for internships and applications
+•	View available internships
+•	Add new internships
+•	Update internship details
+•	Delete internships
+•	Apply for internships
+•	Store internship applications in MySQL database
+•	View all submitted applications
+•	Perform CRUD operations for internships and applications
 
 ---
 
 📂 Project Structure
 
-src/main/java
-
+src/main/java 
 controller
 service
 repository
 model
 
 src/main/resources
-
 application.properties
 
 ---
@@ -48,19 +46,19 @@ application.properties
 
 Internship APIs
 
-GET /api/internships
-POST /api/internships
-PUT /api/internships/{id}
-DELETE /api/internships/{id}
+•	GET /api/internships
+•	POST /api/internships
+•	PUT /api/internships/{id}
+•	DELETE /api/internships/{id}
 
 ---
 
 Application APIs
 
-POST /api/applications
-GET /api/applications
-PUT /api/applications/{id}
-DELETE /api/applications/{id}
+•	POST /api/applications
+•	GET /api/applications
+•	PUT /api/applications/{id}
+•	DELETE /api/applications/{id}
 
 ---
 
@@ -98,10 +96,10 @@ http://localhost:8080
 
 Frontend code available at
 
-https://github.com/YOUR_USERNAME/internship-portal-frontend
+https://github.com/abinaya098/internship-portal-frontend
 
 ---
 
-👩‍💻 Developed by Abinaya Y
+👩💻 Developed by Abinaya Y
 
 Update applications.properties
