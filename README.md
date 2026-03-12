@@ -7,7 +7,7 @@ It provides REST APIs to manage internships and internship applications.
 
 🛠 Technologies Used
 
-•	Java 21
+•Java 21
 •	Spring Boot
 •	Spring Data JPA
 •	MySQL
