@@ -1,70 +1,61 @@
-🚀 Internship Portal - backend
+# 🚀 Internship Portal - Backend
 
-This repository contains the backend implementation of the Internship Portal Web Application built using Spring Boot and MySQL.
-It provides REST APIs to manage internships and internship applications.
-
----
-
-🛠 Technologies Used
-
-•Java 21
-•	Spring Boot
-•	Spring Data JPA
-•	MySQL
-•	Maven
-•	REST API
+This repository contains the **backend implementation** of the Internship Portal Web Application built using **Spring Boot** and **MySQL**.  
+It provides **REST APIs** to manage internships and internship applications.
 
 ---
 
-✨ Features
+## 🛠 Technologies Used
 
-•	View available internships
-•	Add new internships
-•	Update internship details
-•	Delete internships
-•	Apply for internships
-•	Store internship applications in MySQL database
-•	View all submitted applications
-•	Perform CRUD operations for internships and applications
+- Java 21  
+- Spring Boot  
+- Spring Data JPA  
+- MySQL  
+- Maven  
+- REST API  
 
 ---
 
-📂 Project Structure
+## ✨ Features
 
-src/main/java 
-controller
-service
-repository
-model
-
-src/main/resources
-application.properties
-
----
-
-⚙ API Endpoints
-
-Internship APIs
-
-•	GET /api/internships
-•	POST /api/internships
-•	PUT /api/internships/{id}
-•	DELETE /api/internships/{id}
+- View available internships  
+- Add new internships  
+- Update internship details  
+- Delete internships  
+- Apply for internships  
+- Store internship applications in MySQL database  
+- View all submitted applications  
+- Perform CRUD operations for internships and applications  
 
 ---
 
-Application APIs
-
-•	POST /api/applications
-•	GET /api/applications
-•	PUT /api/applications/{id}
-•	DELETE /api/applications/{id}
+## 📂 Project Structure
+src/main/java ├── controller ├── service ├── repository └── model
+src/main/resources └── application.properties
 
 ---
 
-▶ How to Run the Project
+## ⚙ API Endpoints
 
-1. Clone the repository
+### Internship APIs
+
+- `GET /api/internships`
+- `POST /api/internships`
+- `PUT /api/internships/{id}`
+- `DELETE /api/internships/{id}`
+
+### Application APIs
+
+- `POST /api/applications`
+- `GET /api/applications`
+- `PUT /api/applications/{id}`
+- `DELETE /api/applications/{id}`
+
+---
+
+## ▶ How to Run the Project
+
+### 1. Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/internship-portal-backend.git
 
@@ -74,10 +65,9 @@ git clone https://github.com/YOUR_USERNAME/internship-portal-backend.git
 
 internship_portal
 
-4. Update database configuration in
+4. Update database configuration in   
 
 src/main/resources/application.properties
-
 Example configuration:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/internship_portal
@@ -85,21 +75,16 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 
 5. Run the Spring Boot application
-
-Server will start at
+Server will start at:
 
 http://localhost:8080
 
----
-
-🔗 Frontend Repository
-
-Frontend code available at
+## 🔗 Frontend Repository
 
 https://github.com/abinaya098/internship-portal-frontend
 
 ---
 
-👩💻 Developed by Abinaya Y
+## 👩‍💻 Developed by
 
-Update applications.properties
+**Abinaya Y**
